@@ -11,3 +11,4 @@ Thumbs.db
 If you ever add a config file for private keys (WiFi credentials, API keys, etc.)
 
 config_private.py
+.secret
