@@ -11,7 +11,7 @@ PASSWORD = "pranav94"
 # ====== HARDWARE SETUP ======
 buzzer = Pin(15, Pin.OUT)
 buzzer.value(0)
-led = Pin(13, Pin.OUT)
+led = Pin(2, Pin.OUT)
 led.off()
 sound_sensor = Pin(4, Pin.IN)   # Digital sound sensor [cite: 1]
 fire_sensor = Pin(14, Pin.IN)    # MQ135 Digital Output
