@@ -253,7 +253,7 @@ def handle_request(request):
         return "IMPACT" if impact_active else "NO_IMPACT" # [cite: 31]
 
     elif path == '/firedetect':
-        return "IMPACT" if fire_active else "NO_IMPACT"
+        return "FIRE" if fire_active else "NO_FIRE"
     
     elif path == '/panic_status':
         return "PANIC_ON" if panic_mode else "PANIC_OFF"
