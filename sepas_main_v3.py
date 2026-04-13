@@ -249,8 +249,8 @@ def handle_request(request):
         fire_active = False
         buzzer.value(0)
         # YELLOW LOGIC: Full Red + Dim Green
-        red.duty(1000)
-        green.duty(150) 
+        red.duty(500)
+        green.duty(90) 
         blue.duty(0)
         return "Panic ON"
 
